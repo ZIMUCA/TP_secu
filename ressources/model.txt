@@ -1,0 +1,12 @@
+[
+  '{{repeat(100)}}',
+  {
+    "ID": '{{index()}}',
+    "Nom": '{{firstName()}} {{surname()}}',
+    "Age": '{{integer(20, 80)}}',
+    "Sexe": '{{random("M", "F")}}',
+    "Diagnostic": 'Grippe',
+    "Profession": '{{random("Ingenieur", "Professeur", "Medecin", "Infirmier", "Avocat", "Architecte", "Comptable", "Pharmacien", "Etudiant", "Artisan")}}',
+    "Code_Postal": '{{integer(10000, 99999)}}'
+  }
+]
